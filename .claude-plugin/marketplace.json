@@ -1,0 +1,21 @@
+{
+  "name": "imbue-skills",
+  "owner": {
+    "name": "Imbue"
+  },
+  "metadata": {
+    "description": "Imbue's skills for coding agents: mngr and Imbue Studio"
+  },
+  "plugins": [
+    {
+      "name": "imbue-mngr-skills",
+      "source": "./plugins/imbue-mngr-skills",
+      "description": "Skills that teach Claude how to use mngr, e.g. to coordinate with other agents."
+    },
+    {
+      "name": "imbue-studio-skills",
+      "source": "./plugins/imbue-studio-skills",
+      "description": "Skills that teach Claude how to drive Imbue Studio: workspaces, the studio API, accounts."
+    }
+  ]
+}
